@@ -7,4 +7,10 @@ export default defineConfig({
   server: {
     port: 8080,
   },
+  /** If you set esmExternals to true, this plugins assumes that 
+     all external dependencies are ES modules */
+
+  commonjsOptions: {
+    esmExternals: true,
+  },
 });
