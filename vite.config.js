@@ -5,12 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 3000,
-  },
-  /** If you set esmExternals to true, this plugins assumes that 
-     all external dependencies are ES modules */
-
-  commonjsOptions: {
-    esmExternals: true,
+    port: 8080,
   },
 });
