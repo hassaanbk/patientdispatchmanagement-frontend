@@ -23,9 +23,8 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          yarn install
-          yarn add react-bootstrap
-          yarn run build
+          npm install
+          npm run build
           
       - name: zip artifact
         run: zip build.zip ./* -r
