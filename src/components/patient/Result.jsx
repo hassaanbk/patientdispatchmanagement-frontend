@@ -6,7 +6,7 @@ Results = (props) => {
   const [data, setData] = useState({});
   const [loading, setLoading] = useState(true);
   const [count, setCount] = useState("0")
-  const apiUrl = "http://localhost:5000/hospital/model";
+  const apiUrl = "https://hepatitas-tensorflow.azurewebsites.net//hospital/model";
 
   const fetchData = async () => {
     try {
